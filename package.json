@@ -8,10 +8,12 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-   
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 0"
-  },
     
-  "homepage": "https://github.com/Saydm7/openshift-test-app"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",   
+    "start":  "node bin/www.js"   
+  }   
+  
 }
